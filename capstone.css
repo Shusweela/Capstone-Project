@@ -1,5 +1,5 @@
 body {
-    background-color: lightcyan;
+    background-color: lightcyan;    
 }
 /*maybe add blue border around page too*/
 
@@ -18,12 +18,28 @@ nav{
     padding: 8px 14px;
 }
 
-/*give title of page color and center on page*/
+/*title of page color and center on page*/
 h1{
     color: blue;
-    position: center
+    position: center;
 }
 
+div {
+    position: center;
+}
 /*give introduction page centered and more justified look 
 add picture or video*/
-p{
+.yellowCake {
+    position: relative;
+    right: 30px;
+}
+
+.bdayCake {
+    position: relative;
+    left: 50px;
+}
+    
+.pinkCake {
+    position: relative;
+    top: 30px;
+}
