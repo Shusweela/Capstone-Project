@@ -29,10 +29,6 @@ div {
 }
 /*give introduction page centered and more justified look 
 add picture or video*/
-.yellowCake {
-    position: relative;
-    right: 30px;
-}
 
 .bdayCake {
     position: relative;
@@ -43,3 +39,9 @@ add picture or video*/
     position: relative;
     top: 30px;
 }
+
+.yellowCake {
+    position: relative;
+   left: 30px;
+}
+
