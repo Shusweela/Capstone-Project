@@ -7,45 +7,46 @@
 </head>
 <link rel="stylesheet" type="text/css" href="capstone.css"/>
 <body>
+    
     <!--adding header links to other pages-->
     <a>Home</a> 
-    <a>Admin Page</a>
-</body>
+
 <!--Place for customer to enter and then submit email address and choose what they want-->
 <Form>
     <br>
     <br>
     <br>
-    <br>   <!--will create a drop down menu of things-->
-    Please select from the drop down menu which type of cake you want.
+    <br>   
+    <!--will create a section for the dropdown menu of cake options-->
+    <!--directions for selecting cake type-->
+   <b>Please select from the drop down menu which cake flavor you want.</b>
     <br>
     <nav>
-    <label for ="cake">I want my cake decorated based on:</label>
+        <!--drop down menu of cake type options-->
+    <label for ="cake">Choose the flavor of your cake:</label>
     <br>
     <select id="cake" name="cake">
-        <option value="flavor">Flavor</option>
-        <option value="color">Color</option>
-        <option value="hobby">Hobby/interest</option>
-        <option value="type">Type</option>
-        <option value="event">Event/Theme</option>
-        <option value="other">Something Else</option>
+        <option value="carrot"></option>Carrot</option>
+        <option value="chocolate">Chocolate</option>
+        <option value="icecream">Icecreamt</option>
+        <option value="lemon pound">Lemon</option>
+        <option value="Marble">Marble</option>
+        <option value="red velvet">RedVelvet</option>
+        <option value="strawberry">Strawberry</option>
+        <option value="vanilla">Vanilla</option>
+        <option value="other">Other</option>
     </select>
-<br>
-
-favorite type (ex: carrot cake, red velvet, pound cake, icecream cake, etc.
-
-subscribe to literature</a></li>
-     
- </nav>
- <br>
     <br>
+favorite type (ex: carrot cake, red velvet, pound cake, icecream cake, etc.)
+</nav>
+ <!--Placing email address and submit the start of the order-->
     <label for="Email Address">Email Address:
         <input type=email name="emailAddress" required></label>
-    <br>
-    <p><label><span>Email Address: </span><input type=email name=emailAddress required></label></p>
-    <br>
-   <p></p><button>Submit</button></p>
+   <button type="submit" onclick="submitDisplay()">Submit</button>
 
+ <p id="submitButton"></p>
     
 </Form>
+<script src="capstone.js"></script>
+</body>    
 </html>
