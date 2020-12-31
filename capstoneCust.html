@@ -8,10 +8,17 @@
 <link rel="stylesheet" type="text/css" href="capstone.css"/>
 <body>
     
-    <!--adding header links to other pages-->
-    <a>Home</a> 
+    <!--Navigation bar for links to other pages-->
+    <div class="customernav">
+        <a class="active" href="capstoneHome.html">Home</a>
+        <a href="capstoneCust.html">Customer</a>
+        <a href="capstoneAdmin.html">Admin</a>
+    </div>
 
-<!--Place for customer to enter and then submit email address and choose what they want-->
+    <!--name of business on Website/heading-->
+    <H1>Marvisloves Cakes</H1>
+
+<!--Form for customer to enter and then submit email address and choose what they want-->
 <Form>
     <br>
     <br>
@@ -28,16 +35,15 @@
     <select id="cake" name="cake">
         <option value="carrot"></option>Carrot</option>
         <option value="chocolate">Chocolate</option>
-        <option value="icecream">Icecreamt</option>
+        <option value="icecream">Icecream</option>
         <option value="lemon pound">Lemon</option>
-        <option value="Marble">Marble</option>
-        <option value="red velvet">RedVelvet</option>
+        <option value="marble">Marble</option>
+        <option value="redVelvet">Red Velvet</option>
         <option value="strawberry">Strawberry</option>
         <option value="vanilla">Vanilla</option>
         <option value="other">Other</option>
     </select>
     <br>
-favorite type (ex: carrot cake, red velvet, pound cake, icecream cake, etc.)
 </nav>
  <!--Placing email address and submit the start of the order-->
     <label for="Email Address">Email Address:
