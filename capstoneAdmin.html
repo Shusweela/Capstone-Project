@@ -8,22 +8,28 @@
 <link rel="stylesheet" type="text/css" href="capstone.css"/>
 <body>
     <!--top of page headers that will navigate to other pages of site-->
-    <a>Home</a>
-    <a>Customers</a>
+    <div class="customernav">
+        <a href="capstoneHome.html">Home</a>
+        <a href="capstoneCust.html">Customer</a>
+        <a class="active" href="capstoneAdmin.html">Admin</a>
+    </div>
     <br>
     <br>
+<!--Heading with business name-->
+    <H1>Marvisloves Cakes</H1>
     <br>
     <br>
-    <!--Administrators will enter password here in order to view email addresses and preferences-->
+    <!--Administrators will enter password here in order to view email addresses and customer preferences-->
     <div>
  Please enter the password.
  <br>
     <label for="Please enter the password"></label>
      <input type="password">
- <button>Go</button>
+ <button type="Go" onclick="adminGo()">Go</button>
 
- <p id=goButton"></p>
+ <p id="goButton"></p>
 </div>
+
  <script src="capstone.js"></script>
 </body>
 
